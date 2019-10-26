@@ -1,0 +1,6 @@
+---
+title: "Resume"
+author: "Yuqi Miao"
+date: "10/26/2019"
+output: html_document
+---

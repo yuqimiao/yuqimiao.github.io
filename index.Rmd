@@ -1,8 +1,5 @@
 ---
-title: "index"
-author: "Yuqi Miao"
-date: "10/26/2019"
-output: html_document
+title: "Nice to meet you, I am Yuqi Miao"
 ---
 
 # This is my first website Draft
