@@ -1,0 +1,29 @@
+---
+title: "index"
+author: "Yuqi Miao"
+date: "10/26/2019"
+output: html_document
+---
+
+# This is my first website Draft
+
+## cover 
+
+### photo
+1. personal 
+2. statistical genetics
+
+### Brief introduction
+
+## navbar:
+
+1. resume(with links of previous work)
+2. personal statement
+3. contact me
+4. About: information used to build the website
+
+
+
+
+
+
