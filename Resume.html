@@ -10,18 +10,19 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Yuqi Miao" />
 
-<meta name="date" content="2019-10-26" />
 
-<title>Resume</title>
+<title>Resume.utf8.md</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -252,6 +253,63 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -259,6 +317,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -291,7 +359,7 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="http://github.com/&lt;YOUR_GH_NAME&gt;/">
+  <a href="https://github.com/yuqimiao">
     <span class="fa fa-github fa-lg"></span>
      
   </a>
@@ -305,17 +373,67 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Resume</h1>
-<h4 class="author">Yuqi Miao</h4>
-<h4 class="date">10/26/2019</h4>
 
 </div>
 
 
+<div id="education" class="section level1">
+<h1>Education</h1>
+<p><strong>MS in Biostatistics in Mailman Public Health</strong><br />
+<em>09/2019-05/2021(expected), Columbia University, New York</em></p>
+<p><strong>B.S. in Marine Fishery Science and Technology</strong></p>
+<p><em>09/2015-06/2019, Ocean University of China (OUC), Qingdao, China </em></p>
+</div>
+<div id="research-experience" class="section level1">
+<h1>Research Experience</h1>
+<p><strong>Research on the Relationship between eQTL and circRNA</strong></p>
+<p><em>Research Assistant, Department of Medical Genetics, Wuhan University 07/2018-08/2018</em></p>
+<ul>
+<li>Extracted the expression data of breast cancer subtype from the TCGA database and used machine learning methods to categorize gene expression data to quickly diagnose cancer subtype</li>
+<li>Used Python to analyze the positional relationship between eQTL and circRNA in different tissues with Bayes methods</li>
+<li>Participated in the design, production and post-modification of the SGCD database (<a href="http://gb.whu.edu.cn:8080/SGCD" class="uri">http://gb.whu.edu.cn:8080/SGCD</a>)</li>
+<li>Participated in the data analysis and post-modification of the CVm6A database (published)</li>
+</ul>
+<p><strong>Research on the Temporal and Spatial Distribution of Chelidonichthys Spinosus in the Yellow Sea</strong></p>
+<p><em>Research Assistant, Ocean University of China(Supervised by Prof.Changdong Liu)</em></p>
+<ul>
+<li>Cleaned and sorted fish data of Chelidonichthys Spinosus for 2016-2017</li>
+<li>Used Python and ArcGIS to analyze the distribution of Chelidonichthys Spinosus with principal component analysis and clustering</li>
+</ul>
+<p><strong>Research on the Establishment of Leisure Fishery Brand</strong> <em>Research Group Leader, OUC SRDP project (Supervised by Prof. Yugui Zhu)</em></p>
+<ul>
+<li>Designed questionnaires to invest citizen’s leisure time for recreational fishery, conducted a questionnaire survey with nearly 1,000 questionnaires collected</li>
+<li>Established the Fishing Fun OUC public platform with more than 2,000 followers.</li>
+<li>Complete data analysis with the survey data and wrote an Industry Report on leisure fishery present situation and proposed suggestions on fishery band development, and the report was published on the college journal</li>
+</ul>
+</div>
+<div id="published" class="section level1">
+<h1>Published</h1>
+<ul>
+<li>Yuqi Miao, CVm6A: A Visualization and Exploration Database for m6As in Cell Lines, Cells. 2019;8(2):168.</li>
+</ul>
+</div>
+<div id="internship" class="section level1">
+<h1>Internship</h1>
+<p><strong>Yantai Laizhou Mingbo Co., Ltd. </strong><br />
+<em>Intern Team Leader 09/2018-10/2018, Yantai, China</em> * Monitored and collected data on farmed fish physiological conditions * Analyzed the physiological data with classification algorithms to adjudge the fishes state accordingly<br />
+<strong>Rizhao Shunan Fishery Company</strong><br />
+<em>Intern Team Leader 04/2018-05/2018, Rizhao, China</em> * Collected fish data with trawlboat daily fishing trip for 30 consecutive days * Accessed the fishery resources condition of the operation sea area utilizing the surplus production model and GLM <strong>Shenzhen Kangrui Biological Co., Ltd</strong>,<br />
+<em>Intern Data Analyst 02/2018-03/2018, Shenzhen, China </em> * Assisted in data processing tasks including data cleaning and sorting</p>
+</div>
+<div id="honers" class="section level1">
+<h1>Honers</h1>
+<p><strong>Honorable Mentions in Interdisciplinary Contest in Modeling</strong><br />
+<em>Group leader, 2018</em> * Collected and cleaning climate and socioeconomic data of more than 100 countries. * Built a logistic regression and fuzzy comprehensive evaluation model of the counties’ fragility focusing on climate effects.</p>
+<p><strong>Second Prize in DataCastle Big Data Competition</strong> <em>Group Member, 2018</em> * Using primary machine learning methods to study breast cancer-related data to determine if a cancer is benign or malignant. * Finished data preprocessing, feature screening, Principal Component Analysis of more than 30 variables * Train Support Vector Machine (SVM) classifier and logistic classifier to achieve early diagnosis of breast cancer, and finished data visualization.</p>
+<p><strong>Champion for College English Speech Contest in Qingdao</strong> <em>2016</em> * Beat over 200 competitors through preliminary and semi-finals * Elected to represent college students in Qingdao in the 2017 East Asian Marine Culture Education Cooperation BBS in 2017<br />
+# SKills * Language skills: English(advanced), Mandarin(Native) * Programming &amp; Software skills: C, Python, R, AutoCAD, Microsoft Office, ArcGIS</p>
+</div>
 
 
 
-
+</div>
+</div>
 
 </div>
 
@@ -348,6 +466,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

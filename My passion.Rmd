@@ -1,30 +1,20 @@
 ---
-title: "My passion"
-author: "Yuqi Miao"
-date: "10/26/2019"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+# Start
 
-## R Markdown
+While working on a scientific research project during the Fisheries Information System course, I got my first exposure to Statistics and was completely amazed by its magic power. Under the guidance of my supervisor, Prof. Changdong Liu, I attempted to design algorithms to analyze the distribution of Chelidonichthys Spinosususing (a marine species) using ArcGIS and Python. The major methods in this study included utilizing Principal Component Analysis and clustering to screen the data collected in different seasons and Kriging interpolation method to draw a contour map. Through the project, I developed an initial understanding of Spatial Statistics and completed the statistical and modeling analysis of high-dimensional data for the first time. Since then, I found my passion and started to learn more about statistics. I began to learn mathematics systematically by taking classes in math department and preparing myself for Interdisciplinary Contest in Modeling. My research on cancer-related data began in the Datacastle Big Data competition. Out of a keen interest in the application of cancer data, I decided to work on the topic of utilizing machine learning to study breast cancer-related data to determine if a cancer is benign or malignant. Under the guidance of Mr. Li, a researcher at Microsoft Research Asia, I used Python's sklearn for data preprocessing, feature screening, principal component analysis, and train Support Vector Machine SVM classifier to achieve early diagnosis of the breast cancer. Through further dimension reduction, the data results were well visualized and I was awarded the second prize for this innovative approach.
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+# Pursuing
+Throughout the competition, while making every effort to come up with the most innovative and efficient algorithms, I started to truly appreciate the fact that the integration of machine learning and cancer-related data undoubtedly has a great deal of potential for development in application in the future. Therefore, I have continued to explore the application of machine learning in cancer-related data. After reading the paper: “Research on Clustering Analysis of Cancer Subtypes Based on Genomics Data", I realized that cancer can be subdivided into multiple subtypes, and the early diagnosis of cancer can be achieved by mining the underlying laws in genetic data. The incredibly clever application of clustering methods in the literature also aroused my keen interest. Therefore, I began to learn to use Python to extract the gene expression data and performed cluster analysis on my own. However, due to the lack of fundamental knowledge in the field of Genomics, I encountered numerous difficulties and challenges. Eager for a breakthrough, I sent an email to Professor. Chunjiang He, a prestigious researcher who worked on medical genetics at Wuhan University. Under his meticulous guidance, I soon delved into literature on genetics circuit models and familiarized myself with R programming. With my newly acquired proficiency with R, I managed to extract the expression data of breast cancer subtypes from the TCGA database and learned from the literature to use machine learning to mine gene expression data to quickly diagnose cancer subtypes.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
-summary(cars)
-```
+After getting more familiar with R, in the summer of 2018, I was fortunate to intern at the laboratory of Dr. He to engage in more advanced research. At first, I took part in the design, production, and post- modification of the SGCD database, and was responsible for the classification of documents on the topic of mathematical modeling. Later on, I was involved in the study of the correlation between eQTL and circRNA. Under the guidance of my supervisor, I skillfully used the fastQTL software to locate eQTL. After reading a paper titled “An Empirical Bayes Approach for multiple Tissue eQTL analysis” by Professor. Gen Li from Columbia University, I developed a much more in-depth understanding of the practical application of the Bayes method in genetic data. After that, I designed algorithms to analyze the positional relationship between eQTL and circRNA with Python, and explored the method of using Bayes to model the correlations in different tissues, which further allowed me to appreciate the magical power of Bayesian statistical methods. In this research, I developed a deeper appreciation for complex regulatory networks between genes. Statistics should serve as mathematical tools for the purpose of solving biological problems, rather than blindly using data to fit an existing algorithm or model.
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+# Now and future
+Now I am pursuing my master degree in statistical genetics at CUMC while taking machine learning online courses at Columbia, and I’m eager to put theories and techniques I am currently learning into practice. Based on my passion, research experiences, and current knowledge on Python, R and machine learning, I have a great passion for genomics data mining and plan to take it as my further Ph.D. application direction

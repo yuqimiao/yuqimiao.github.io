@@ -1,6 +1,85 @@
 ---
-title: "Resume"
-author: "Yuqi Miao"
-date: "10/26/2019"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
 ---
+# Education                                                                       
+
+**MS in Biostatistics in Mailman Public Health**                
+_09/2019-05/2021(expected), Columbia University, New York_
+
+**B.S. in Marine Fishery Science and Technology**               
+                                                                       	          
+_09/2015-06/2019, Ocean University of China (OUC), Qingdao, China _       
+					                                      
+# Research Experience
+
+**Research on the Relationship between eQTL and circRNA**
+
+_Research Assistant, Department of Medical Genetics, Wuhan University 	07/2018-08/2018_
+
+* Extracted the expression data of breast cancer subtype from the TCGA database and used machine learning methods to categorize gene expression data to quickly diagnose cancer subtype
+* Used Python to analyze the positional relationship between eQTL and circRNA in different tissues with Bayes methods
+* Participated in the design, production and post-modification of the SGCD database (http://gb.whu.edu.cn:8080/SGCD)
+* Participated in the data analysis and post-modification of the CVm6A database (published)
+
+**Research on the Temporal and Spatial Distribution of Chelidonichthys Spinosus in the Yellow Sea**
+
+_Research Assistant, Ocean University of China(Supervised by Prof.Changdong Liu)_
+
+* Cleaned and sorted fish data of Chelidonichthys Spinosus for 2016-2017
+* Used Python and ArcGIS to analyze the distribution of Chelidonichthys Spinosus with  principal component analysis and clustering
+
+
+**Research on the Establishment of Leisure Fishery Brand**
+_Research Group Leader, OUC SRDP project (Supervised by Prof. Yugui Zhu)_
+
+* Designed questionnaires to invest citizen’s leisure time for recreational fishery, conducted a questionnaire survey with nearly 1,000 questionnaires collected
+* Established the Fishing Fun OUC public platform with more than 2,000 followers.
+* Complete data analysis with the survey data and wrote an Industry Report on leisure fishery present situation and proposed suggestions on fishery band development, and the report was published on the college journal
+
+# Published
+
+* Yuqi Miao, CVm6A: A Visualization and Exploration Database for m6As in Cell Lines, Cells. 2019;8(2):168.
+
+# Internship
+
+**Yantai Laizhou Mingbo Co., Ltd. **      	
+_Intern Team Leader	09/2018-10/2018, Yantai, China_
+* Monitored and collected data on farmed fish physiological conditions 
+* Analyzed the physiological data with classification algorithms to adjudge the fishes state accordingly  
+**Rizhao Shunan Fishery Company**                                                
+_Intern Team Leader	04/2018-05/2018, Rizhao, China_
+* Collected fish data with trawlboat daily fishing trip for 30 consecutive days
+* Accessed the fishery resources condition of the operation sea area utilizing the surplus production model and GLM
+**Shenzhen Kangrui Biological Co., Ltd**,  
+_Intern Data Analyst	02/2018-03/2018, Shenzhen, China _
+* Assisted in data processing tasks including data cleaning and sorting
+
+
+# Honers
+**Honorable Mentions in Interdisciplinary Contest in Modeling**               
+_Group leader, 2018_
+* Collected and cleaning climate and socioeconomic data of  more than 100 countries.
+* Built a logistic regression and fuzzy comprehensive evaluation model of the counties’ fragility focusing on climate effects.
+
+**Second Prize in DataCastle Big Data Competition**                               _Group Member, 2018_
+* Using primary machine learning methods to study breast cancer-related data to determine if a cancer is benign or malignant. 
+* Finished data preprocessing, feature screening, Principal Component Analysis of more than 30 variables 
+* Train Support Vector Machine (SVM) classifier and logistic classifier to achieve early diagnosis of breast cancer, and finished data visualization.
+
+**Champion for College English Speech Contest  in Qingdao**                       _2016_
+* Beat over 200 competitors through preliminary and semi-finals 
+* Elected to represent college students in Qingdao in the 2017 East Asian Marine Culture Education Cooperation BBS  in 2017     
+# SKills
+* Language skills: English(advanced), Mandarin(Native)
+* Programming & Software skills: C, Python, R, AutoCAD, Microsoft Office, ArcGIS
+
+
+
+
+
+
+
