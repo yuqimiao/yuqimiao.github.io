@@ -14,7 +14,7 @@ library(p8105.datasets)
 library(plotly)
 ```
 
-Column {data-width=650}
+Column {data-width=550}
 -----------------------------------------------------------------------
 
 ### Aisle order times rank (for count > 10000).
@@ -29,7 +29,7 @@ instacart %>%
    plot_ly(x = ~aisle, y = ~count, color = ~aisle, type = "bar")
 ```
 
-Column {data-width=350}
+Column {data-width=450}
 -----------------------------------------------------------------------
 
 ### Fresh Vegetable order frequency among hours in a day.
