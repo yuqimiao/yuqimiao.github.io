@@ -1,0 +1,70 @@
+---
+title: "dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(plotly)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Aisle order times rank (for count > 10000).
+
+```{r}
+data("instacart")
+instacart %>% 
+    group_by(aisle) %>% 
+    summarise(count=n()) %>%
+    filter(count >= 10000) %>% 
+    mutate(aisle = fct_reorder(aisle,count,.desc = T))%>% 
+   plot_ly(x = ~aisle, y = ~count, color = ~aisle, type = "bar")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Fresh Vegetable order frequency among hours in a day.
+
+```{r}
+
+instacart %>% 
+    filter(aisle == "fresh vegetables") %>%
+    select(product_name,order_dow,order_hour_of_day) %>% 
+    group_by(product_name) %>% 
+    mutate(count = n()) %>% 
+    ungroup() %>%
+    mutate(rank = min_rank(desc(count))) %>% 
+    arrange(rank) %>% 
+    filter(rank == 1) %>% 
+    group_by(product_name,order_hour_of_day,order_dow) %>% 
+    summarise(count_per_hour = n()) %>% 
+    ungroup() %>% 
+    mutate(order_dow = factor(order_dow, levels = 0:6, labels = c("Sun","Mon","Tue","Wed","Thu","Fri","Sat")),order_hour_of_day = factor(order_hour_of_day)) %>% 
+    plot_ly(x = ~order_hour_of_day, y = ~count_per_hour, color = ~order_dow, type = "scatter", mode = "lines" )
+```
+
+### Order amount among hours in a day.
+
+```{r}
+
+instacart %>% 
+    mutate(order_dow = factor(order_dow, levels = 0:6, labels = c("Sun","Mon","Tue","Wed","Thu","Fri","Sat")),order_hour_of_day = factor(order_hour_of_day)) %>% 
+    select(user_id,order_dow,order_hour_of_day) %>% 
+    group_by(user_id) %>% 
+    mutate(order_amount = n()) %>% 
+    group_by(order_dow,order_hour_of_day) %>% 
+    summarise(order_hour_amount = sum(order_amount)) %>% 
+    plot_ly(x=~order_hour_of_day, y = ~order_hour_amount,color = ~order_dow,type = "bar")
+    
+
+```
+

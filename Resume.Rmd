@@ -48,33 +48,54 @@ _Research Group Leader, OUC SRDP project (Supervised by Prof. Yugui Zhu)_
 
 **Yantai Laizhou Mingbo Co., Ltd. **      	
 _Intern Team Leader	09/2018-10/2018, Yantai, China_
+
 * Monitored and collected data on farmed fish physiological conditions 
+
 * Analyzed the physiological data with classification algorithms to adjudge the fishes state accordingly  
+
 **Rizhao Shunan Fishery Company**                                                
 _Intern Team Leader	04/2018-05/2018, Rizhao, China_
+
 * Collected fish data with trawlboat daily fishing trip for 30 consecutive days
+
 * Accessed the fishery resources condition of the operation sea area utilizing the surplus production model and GLM
+
 **Shenzhen Kangrui Biological Co., Ltd**,  
 _Intern Data Analyst	02/2018-03/2018, Shenzhen, China _
+
 * Assisted in data processing tasks including data cleaning and sorting
 
 
 # Honers
-**Honorable Mentions in Interdisciplinary Contest in Modeling**               
+
+**Honorable Mentions in Interdisciplinary Contest in Modeling**   
+
 _Group leader, 2018_
+
 * Collected and cleaning climate and socioeconomic data of  more than 100 countries.
+
 * Built a logistic regression and fuzzy comprehensive evaluation model of the counties’ fragility focusing on climate effects.
 
 **Second Prize in DataCastle Big Data Competition**                               _Group Member, 2018_
+
 * Using primary machine learning methods to study breast cancer-related data to determine if a cancer is benign or malignant. 
+
 * Finished data preprocessing, feature screening, Principal Component Analysis of more than 30 variables 
+
 * Train Support Vector Machine (SVM) classifier and logistic classifier to achieve early diagnosis of breast cancer, and finished data visualization.
 
-**Champion for College English Speech Contest  in Qingdao**                       _2016_
+**Champion for College English Speech Contest  in Qingdao**   
+
+_2016_
+
 * Beat over 200 competitors through preliminary and semi-finals 
-* Elected to represent college students in Qingdao in the 2017 East Asian Marine Culture Education Cooperation BBS  in 2017     
+
+* Elected to represent college students in Qingdao in the 2017 East Asian Marine Culture Education Cooperation BBS  in 2017  
+
 # SKills
+
 * Language skills: English(advanced), Mandarin(Native)
+
 * Programming & Software skills: C, Python, R, AutoCAD, Microsoft Office, ArcGIS
 
 
