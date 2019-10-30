@@ -1,25 +1,13 @@
 
 # Nice to meet you, I'm Yuqi Miao
 
-## cover 
 
 <div align="center"><img src="image/cover photo.jpg" style="width:100%">
 
 <div align="center"><img src="image/information.png" style="width:30%">
 
 
-### photo
-1. personal 
-2. statistical genetics
 
-### Brief introduction
-
-## navbar:
-
-1. resume(with links of previous work)
-2. My passion (personal statement)
-3. contact me
-4. About: information used to build the website
 
 
 
