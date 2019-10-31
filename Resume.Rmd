@@ -22,7 +22,7 @@ _Research Assistant, Department of Medical Genetics, Wuhan University 	07/2018-0
 
 * Extracted the expression data of breast cancer subtype from the TCGA database and used machine learning methods to categorize gene expression data to quickly diagnose cancer subtype
 * Used Python to analyze the positional relationship between eQTL and circRNA in different tissues with Bayes methods
-* Participated in the design, production and post-modification of the SGCD database (http://gb.whu.edu.cn:8080/SGCD)
+* Participated in the design, production and post-modification of [the SGCD database](http://gb.whu.edu.cn:8080/SGCD)
 * Participated in the data analysis and post-modification of the CVm6A database (published)
 
 **Research on the Temporal and Spatial Distribution of Chelidonichthys Spinosus in the Yellow Sea**
