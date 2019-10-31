@@ -6,9 +6,11 @@ navbar:
     - text: "Resume"
       href: Resume.html
     - text: "My passion"
-      href: My-passion.html  
+      href: My-passion.html
+    - text: "Dashboard presentation"
+      href: dashboard.html
     - icon: fa-envelope fa-lg
-      href: mailto:<miaoyuqi01@outlook.com>
+      href: mailto:miaoyuqi01@outlook.com
     - icon: fa-github fa-lg
       href: https://github.com/yuqimiao
 output: 
