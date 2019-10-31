@@ -76,7 +76,9 @@ _Group leader, 2018_
 
 * Built a logistic regression and fuzzy comprehensive evaluation model of the counties’ fragility focusing on climate effects.
 
-**Second Prize in DataCastle Big Data Competition**                               _Group Member, 2018_
+**Second Prize in DataCastle Big Data Competition**                               
+
+_Group Member, 2018_
 
 * Using primary machine learning methods to study breast cancer-related data to determine if a cancer is benign or malignant. 
 
