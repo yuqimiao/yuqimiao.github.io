@@ -1,25 +1,26 @@
 
 # Nice to meet you, I'm Yuqi Miao
 
+I am currently learning biostatistics in Columbia university and focusing on statistical analysis and data visualization learning, [here]() is the link of some data visualization works from me.  
 
-<div align="center"><img src="image/cover photo.jpg" style="width:100%">
-
-<div align="center"><img src="image/information.png" style="width:30%">
-
-<div align="left">## Dashboard presentation.
+<div align="center"><img src="image/cover photo.jpg" style="width:40%"><img src="image/information.png" style="width:40%">
 
 
-The instavart dataset with 1384617 observations and 15 variables gives online order information for 131209 users, who only have single order respectively.
 
-The information focus on the following dimension: 
+```{r}
 
-**firstly**, detailed order information, including order composition(suggested by `product_id`, `product_name`, `aisle_id`, `department_id`, `aisle`, `department`), and order time (accurate to hour, suggested by variables `order_dow`, `order_hour_of_day`);
+## change the border of the plot to circle?
+```
 
-**secondly**, the users’ order frequency, which is illustrated by order sequence number for the specific user(suggested by `order_number`) and shopping interval(suggested by `days_since_prior_order`); 
 
-**thirdly**, users shopping preferrence can also be analysed by the order adding to cart and reorder information(suggested by `add_to_cart_order`, `reordered`,respectively).
+```{r}
+#
+#2. Change the description for the dashboard in to the dashboard.
+```
 
-here is the exploratory [dashboard](dashboard.html) of instacart, focusing on the most popular online shopping aisles and the most frequent order hours in week days.
+
+
+
 
 
 

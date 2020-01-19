@@ -7,8 +7,8 @@ navbar:
       href: Resume.html
     - text: "My passion"
       href: My-passion.html
-    - text: "Dashboard presentation"
-      href: dashboard.html
+    - text: "Data visualization"
+      href: viz.html
     - icon: fa-envelope fa-lg
       href: mailto:miaoyuqi01@outlook.com
     - icon: fa-github fa-lg
