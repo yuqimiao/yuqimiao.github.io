@@ -13,11 +13,6 @@ I am currently learning biostatistics in Columbia university and focusing on sta
 ```
 
 
-```{r}
-#
-#2. Change the description for the dashboard in to the dashboard.
-```
-
 
 
 

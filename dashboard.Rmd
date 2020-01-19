@@ -2,6 +2,9 @@
 title: "dashboard"
 output: 
   flexdashboard::flex_dashboard:
+    navbar:
+      - {title: "Home", href: index.html}
+      - {title: "Data visualization", href: viz.html}
     orientation: columns
     vertical_layout: fill
 ---
@@ -10,9 +13,26 @@ output:
 library(flexdashboard)
 library(tidyverse)
 library(viridis)
-library(p8105.datasets)
 library(plotly)
 ```
+
+```{r}
+instacart = read_csv("orders_train_allvars.csv")
+```
+
+Input{.sidebar}
+--------------------------
+
+The *instavart dataset* with 1384617 observations and 15 variables gives online order information for 131209 users, who only have single order respectively.
+
+The information focus on the following dimension: 
+
+**firstly**, detailed order information, including order composition(suggested by `product_id`, `product_name`, `aisle_id`, `department_id`, `aisle`, `department`), and order time (accurate to hour, suggested by variables `order_dow`, `order_hour_of_day`);
+
+**secondly**, the users’ order frequency, which is illustrated by order sequence number for the specific user(suggested by `order_number`) and shopping interval(suggested by `days_since_prior_order`); 
+
+**thirdly**, users shopping preferrence can also be analysed by the order adding to cart and reorder information(suggested by `add_to_cart_order`, `reordered`,respectively).
+
 
 Column {data-width=550}
 -----------------------------------------------------------------------
