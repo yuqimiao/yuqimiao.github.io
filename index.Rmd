@@ -7,11 +7,6 @@ I am currently learning biostatistics in Columbia university and focusing on sta
 
 
 
-```{r}
-
-## change the border of the plot to circle?
-```
-
 
 
 
